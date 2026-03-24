@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elite Store App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- App Header -->
+  <header class="p-4 bg-white shadow flex justify-between items-center sticky top-0">
+    <h1 class="text-xl font-bold">Elite Store</h1>
+    <button class="bg-black text-white px-4 py-1 rounded-full text-sm">Cart</button>
+  </header>
+
+  <!-- Main Content -->
+  <main class="p-4 pb-24">
+
+    <!-- Hero Card -->
+    <div class="bg-black text-white p-6 rounded-2xl mb-6">
+      <h2 class="text-2xl font-bold">Upgrade Your Style</h2>
+      <p class="text-sm mt-2">Shop premium items easily</p>
+    </div>
+
+    <!-- Products -->
+    <h3 class="text-lg font-semibold mb-3">Products</h3>
+    <div class="grid grid-cols-2 gap-4">
+
+      <div class="bg-white p-3 rounded-2xl shadow">
+        <img src="https://via.placeholder.com/200" class="rounded-xl mb-2" />
+        <p class="text-sm font-semibold">Sneakers</p>
+        <p class="text-xs text-gray-500">₦25,000</p>
+        <button class="mt-2 w-full bg-black text-white text-sm py-1 rounded-xl">Buy</button>
+      </div>
+
+      <div class="bg-white p-3 rounded-2xl shadow">
+        <img src="https://via.placeholder.com/200" class="rounded-xl mb-2" />
+        <p class="text-sm font-semibold">Watch</p>
+        <p class="text-xs text-gray-500">₦15,000</p>
+        <button class="mt-2 w-full bg-black text-white text-sm py-1 rounded-xl">Buy</button>
+      </div>
+
+      <div class="bg-white p-3 rounded-2xl shadow">
+        <img src="https://via.placeholder.com/200" class="rounded-xl mb-2" />
+        <p class="text-sm font-semibold">Backpack</p>
+        <p class="text-xs text-gray-500">₦10,000</p>
+        <button class="mt-2 w-full bg-black text-white text-sm py-1 rounded-xl">Buy</button>
+      </div>
+
+      <div class="bg-white p-3 rounded-2xl shadow">
+        <img src="https://via.placeholder.com/200" class="rounded-xl mb-2" />
+        <p class="text-sm font-semibold">Cap</p>
+        <p class="text-xs text-gray-500">₦5,000</p>
+        <button class="mt-2 w-full bg-black text-white text-sm py-1 rounded-xl">Buy</button>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Bottom Navigation (App Style) -->
+  <nav class="fixed bottom-0 left-0 right-0 bg-white shadow flex justify-around py-3">
+    <button class="text-sm font-semibold">Home</button>
+    <button class="text-sm">Search</button>
+    <button class="text-sm">Cart</button>
+    <button class="text-sm">Profile</button>
+  </nav>
+
+</body>
+</html>
